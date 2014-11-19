@@ -1,0 +1,104 @@
+#reg_box {
+    width: 840px;
+    padding: 20px 80px;
+}
+#reg_head {
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px solid #ff8500;
+}
+#reg_head ul {
+    margin-left: 30px;
+}
+#reg_head li {
+    float: left;
+}
+#reg_head li.current {
+    border: 1px solid #ff8500;
+    border-bottom: 2px solid #fff;
+}
+#reg_head li a {
+    display:block;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.login-guide {
+    float: right;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.login-guide a{
+    font-size: inherit;
+    line-height: inherit;
+    color: #ff8500;
+}
+#regForm {
+    padding: 20px 30px;
+}
+div.field-group {
+    padding: 10px 0 10px 80px;
+}
+div.field-group label {
+    position: absolute;
+    left: 75px;
+    width: 100px;
+    padding-top: 2px;
+    font-size: 14px;
+    text-align: right;
+}
+div.field-group .reg_input {
+    width: 236px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    line-height: 20px;
+    vertical-align: top;
+    font-size: 14px;
+}
+div.field-group .inline-tip {
+	height: 20px;
+	vertical-align: top;
+	display: inline-block;
+	padding: 5px 8px 5px 24px;
+	line-height: 20px;
+}
+div.field-group .error {
+	background-color:#fff1f1;
+	border: 1px solid #ffbebd; 
+}
+div.field-group .correct {
+}
+div.field-group .btn {
+    padding: 6px 20px;
+    color: white;
+    background-color: #ff8500;
+    border: 1px solid #ff8400;
+    box-shadow: inset 0 1px 0 #ff8500;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+div.field-group .btn:hover {
+    background-color: #ef5701;
+}
+div.field-group a {
+    margin: 0 0 0 4px;
+    font-size: 12px;
+    line-height: 32px;
+    vertical-align: top;
+    zoom: 1;
+}
+#reg_authCode {
+    width: 64px;
+}
+#agreement {
+    margin: 6px 20px;
+    display: inline-block;
+}
+#agreement:hover {
+    text-decoration: underline;
+}
